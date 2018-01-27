@@ -1,0 +1,159 @@
+.popup {
+	background: white;
+	visibility: visible;
+	position: fixed;
+	z-index: 500;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+    border: 2px solid #24292e;
+}
+
+.header_pop {
+	color: white;
+	height:30px;
+    width: 100%;
+    background: #24292e;
+    padding: 1px;
+    font-size: 2.0rem;
+    margin-bottom: 0px;
+    
+}
+.popOne {
+	background: white;
+	visibility: hidden;
+	position:fixed;
+	z-index: 501;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 400px;
+    border: 2px solid #24292e;
+}
+.popdown {
+	visibility: hidden;
+	position: fixed;
+	z-index: 600;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 30px;
+    border: 2px solid #24292e;
+	}
+
+.close {
+	float: right;
+	padding-right: 5px;
+}
+
+#open {
+	float: right;
+	padding-right: 5px;
+}
+
+.close:hover {
+	cursor: pointer;
+}
+
+#open:hover {
+	cursor: pointer;
+}
+
+.body_pop  {
+	height: 366px;
+	overflow: auto;
+	color: black;
+    padding-left: 0px;
+    margin: 0px;
+    list-style-position: inside;
+}
+
+.body_pop > li {
+	font-weight: bold;
+	display: list-item;
+	border-bottom: 1px solid #24292e;
+	cursor: pointer;
+	padding: 2px 5px 2px;
+}
+
+.popimg{
+	border: 2px solid #24292e;
+    width: 100px;
+    height: 100px;
+    margin-left: 33%;
+    margin-top: 10%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.company{
+	font-weight: 100;
+    font-size: 20px;
+	text-align: center;
+	text-align: center;
+	padding-bottom: 5px;
+	color: #24292e;
+	margin-bottom: 0px;
+	margin-top: 25px;
+}
+
+.rAndg{
+    font-weight: 100;
+    font-size: 20px;
+	display: inline-block;
+	margin-left: 22%;
+    margin-top: 5%;
+    color: #24292e;
+}
+
+.downTran {
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+    margin-bottom: -370px;
+}
+
+.upTran {
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	margin-bottom: 0px;
+}
+
+#loader2 {
+  position: absolute;
+  left: 60%;
+  top: 55%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  border: 15px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 15px solid #39b54a;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#loadercont2{
+	background: #24292e;
+	visibility: hidden;
+	position:fixed;
+	z-index: 502;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 370px;
+    border: 2px solid #24292e;
+    opacity: 0.8;
+
+}
+
