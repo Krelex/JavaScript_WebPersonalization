@@ -1,4 +1,4 @@
-#JavaScript_WebPersonalization
+# JavaScript_WebPersonalization
 
 ## Description
 To see changes that I apply to this template look up for `css/task.css` and `js/task.js` .
