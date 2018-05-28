@@ -1,5 +1,6 @@
 ## Description
-To see changes that I apply to this template look up for `css/task.css` and `js/task.js` .
+To see code that I apply to this template look up for `css/task.css` and `js/task.js`.
+To see Web personalizator download repo , extract and start `index.html` with Chrome or Firefox.
 
 ## Assignment
 The assignment is to create a web personalization. The web personalization will be a popup which will have two views.
